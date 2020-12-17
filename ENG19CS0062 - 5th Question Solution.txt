@@ -45,3 +45,47 @@ dup = uniqueUpdate(data1, data2)
 print(data1)
 print(data2)
 print(dup)
+
+
+5.A.
+Input :
+3
+1 2
+2 2
+8 7
+
+2
+3 3
+4 4
+So the error is that when the key does not exist in data 1, the key value pair is not added to it
+
+
+5.B. The code above is corrected.
+ 
+ 
+5C.
+
+Test Case 1
+4
+1 2
+14 14
+3 8
+4 9
+
+2
+3 3
+4 4
+
+Test Case 2
+4
+1 2
+2 2
+3 3
+4 19
+2
+3 3
+4
+1 9
+
+Test Case 3
+We can use the test case for 5A part
